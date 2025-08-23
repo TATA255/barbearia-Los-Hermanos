@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+
+.geral h1{
+    font-size: 80px;
+}
+
+.UsuarioSenha input{
+    border-style: none;
+    border-color: srgb(0, 0, 0);
+    transition: 0.5s;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    padding: 0px 15px 0px 15px;
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px  black;
+}
+
+.UsuarioSenha input:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.botao{
+    border-style: none;
+    transition: 0.5s;
+    font-size: 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 10px 60px 10px 60px;
+    box-shadow: 10px 10px 10px  black;
+}
+
+.botao:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    scale: 1.1;
+}
+
+.cadastro{
+    background-color: #502b06;
+    border-radius: 30px;
+    padding: 0px 80px 80px 80px;
+}
+
+.usuarioCadastrar{
+    width: 350px;
+    padding: 50px 0px 50px 0px;
+}
